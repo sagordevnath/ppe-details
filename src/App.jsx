@@ -4,7 +4,7 @@ import Land from './Pages/Land';
 import Menubar from './Pages/MenuBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PPEDetails from './Pages/PPEDetails';
-import PPE from './PPE';
+import PPE from './Pages/PPE';
 
 function App() {
 

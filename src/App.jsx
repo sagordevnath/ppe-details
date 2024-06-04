@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PPEDetails from './Pages/PPEDetails';
 import PPE from './Pages/PPE';
 import Buildings from './Pages/Buildings';
+import PlantAndMachinery from './Pages/PlantAndMachinery';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
     {/* <Land /> */}
     {/* <PPEDetails /> */}
     {/* <PPE /> */}
-    <Buildings />
+    {/* <Buildings /> */}
+    <PlantAndMachinery />
     </>
   )
 }

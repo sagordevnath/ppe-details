@@ -8,6 +8,7 @@ import PPE from './Pages/PPE';
 import Buildings from './Pages/Buildings';
 import PlantAndMachinery from './Pages/PlantAndMachinery';
 import Furniture from './Pages/Furniture';
+import OfficeEquipment from './Pages/OfficeEquipment';
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
     {/* <PPE /> */}
     {/* <Buildings /> */}
     {/* <PlantAndMachinery /> */}
-    <Furniture />
+    {/* <Furniture /> */}
+    <OfficeEquipment />
     </>
   )
 }

@@ -1,14 +1,15 @@
 import React from "react";
 
+
 export default function PPE() {
   return (
     <>
       <div className="note-header pt-3">
         <div className="container-fluid">
-          <div className="row border border-2 border-dark p-2">
+          <div className="row border border-dark p-2">
             <div className="col-12">
               <div className="address">
-                <h5 className="mb-1 fs-3">RS Communications Limited</h5>
+                <h5 className="mb-1">RS Communications Limited</h5>
                 <p className="mb-0">
                   23/D/1, Free School Street, Box Culvert Road, Dhaka-1205,
                   Bangladesh.
@@ -91,32 +92,132 @@ export default function PPE() {
         <tr className="">
           <td className="border border-dark">1</td>
           <td className="text-left border border-dark">Land (freehold)</td>
-          <td className="text-left border border-dark">Registration costs</td>
-          <td className="text-end border border-dark">
-            {" "}
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark"> 5,500,000</td>
-          <td className="border border-dark">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
+          <td className="text-left border border-dark text-center">Reducing balance</td>
           <td className="text-end border border-dark"></td>
-          <td className="text-end border border-dark">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
           <td className="text-end border border-dark"></td>
-          <td className="text-end border border-dark"> 5,500,000</td>
-          <td className="text-end border border-dark"> 500,000</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
         </tr>
+        <tr className="">
+          <td className="border border-dark">2</td>
+          <td className="text-left border border-dark">Buildings</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">3</td>
+          <td className="text-left border border-dark">Plant and Machenary</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">4</td>
+          <td className="text-left border border-dark">Furniture and Fixture</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">5</td>
+          <td className="text-left border border-dark">Office Equipment</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">6</td>
+          <td className="text-left border border-dark">Electrical Equipment</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">7</td>
+          <td className="text-left border border-dark">Automobiles</td>
+          <td className="text-left border border-dark text-center">Straight line</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+        <tr className="">
+          <td className="border border-dark">8</td>
+          <td className="text-left border border-dark">Assets under construction (AUC)</td>
+          <td className="text-left border border-dark text-center">Reducing balance</td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+          <td className="text-end border border-dark"></td>
+        </tr>
+       
     <br />
         <tr className="border-btm-2 margin-bottom-30">
           <td colSpan={2} className="bold border border-dark border-3 fw-bold">
@@ -124,17 +225,17 @@ export default function PPE() {
             At 30 June 2023
           </td>
           <td className="border border-dark border-3"></td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3">500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 5,500,000</td>
           <td className="bold text-end border border-dark border-3"></td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 5,500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
         </tr>
     <br />
         <tr className="border-btm-2  border border-dark border-3">
@@ -143,29 +244,17 @@ export default function PPE() {
             At 30 June 2022
           </td>
           <td className="border border-dark border-3"></td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="bold text-end border border-dark border-3"> 5,500,000</td>
+          <td className="text-end border border-dark border-3"></td>
+          <td className="text-end border border-dark border-3"></td>
+          <td className="text-end border border-dark border-3"></td>
           <td className="bold text-end border border-dark border-3"></td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="text-end border border-dark border-3">
-            <input className="input-group input-group-sm input" type="number" />
-          </td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
-          <td className="bold text-end border border-dark border-3"> 5,500,000</td>
-          <td className="bold text-end border border-dark border-3"> 500,000</td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="text-end border border-dark border-3"></td>
+          <td className="text-end border border-dark border-3"></td>
+          <td className="text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
+          <td className="bold text-end border border-dark border-3"></td>
         </tr>
         <tr className="height-25 border-none"></tr>
       </table>

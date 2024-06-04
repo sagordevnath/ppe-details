@@ -16,12 +16,12 @@ function MenuBar() {
             <Nav.Link href="/PPE-Details">PPE Details</Nav.Link>
             <Nav.Link href="/land">Land</Nav.Link>
             <Nav.Link href="/buildings">Buildings</Nav.Link>
-            <Nav.Link href="/property-machenary">Property n Machenary</Nav.Link>
+            <Nav.Link href="/plant-machinery">Plant and Machinery</Nav.Link>
             <Nav.Link href="/furniture">Furniture</Nav.Link>
             <Nav.Link href="/office-equipment">Office equipment</Nav.Link>
             <Nav.Link href="/electrical-equipment">Electrical Equipment</Nav.Link>
             <Nav.Link href="/automobiles ">Automobiles</Nav.Link>
-            <Nav.Link href="/automobiles ">Assets under construction (AUC)</Nav.Link>
+            <Nav.Link href="/auc ">Assets under construction (AUC)</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

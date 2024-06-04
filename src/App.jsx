@@ -7,6 +7,7 @@ import PPEDetails from './Pages/PPEDetails';
 import PPE from './Pages/PPE';
 import Buildings from './Pages/Buildings';
 import PlantAndMachinery from './Pages/PlantAndMachinery';
+import Furniture from './Pages/Furniture';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
     {/* <PPEDetails /> */}
     {/* <PPE /> */}
     {/* <Buildings /> */}
-    <PlantAndMachinery />
+    {/* <PlantAndMachinery /> */}
+    <Furniture />
     </>
   )
 }

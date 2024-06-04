@@ -12,8 +12,8 @@ function App() {
     <>
     <Menubar />
     {/* <Land /> */}
-    {/* <PPEDetails /> */}
-    <PPE />
+    <PPEDetails />
+    {/* <PPE /> */}
     </>
   )
 }

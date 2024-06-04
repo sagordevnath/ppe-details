@@ -21,7 +21,7 @@ function MenuBar() {
             <Nav.Link href="/office-equipment">Office equipment</Nav.Link>
             <Nav.Link href="/electrical-equipment">Electrical Equipment</Nav.Link>
             <Nav.Link href="/automobiles ">Automobiles</Nav.Link>
-            <Nav.Link href="/auc ">Assets under construction (AUC)</Nav.Link>
+            <Nav.Link href="/assets-under-construction ">Assets under construction (AUC)</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

@@ -11,6 +11,7 @@ import Furniture from './Pages/Furniture';
 import OfficeEquipment from './Pages/OfficeEquipment';
 import ElectricalEquipment from './Pages/ElectricalEquipment';
 import Automobiles from './Pages/Automobiles';
+import AssetsUnderConstruction from './Pages/AssetsUnderConstruction';
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
     {/* <Furniture /> */}
     {/* <OfficeEquipment /> */}
     {/* <ElectricalEquipment /> */}
-    <Automobiles />
+    {/* <Automobiles /> */}
+    <AssetsUnderConstruction />
     </>
   )
 }

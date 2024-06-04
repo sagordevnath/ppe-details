@@ -5,10 +5,10 @@ export default function PPE() {
     <>
       <div className="note-header pt-3">
         <div className="container-fluid">
-          <div className="row border border-dark p-2">
+          <div className="row border border-2 border-dark p-2">
             <div className="col-12">
               <div className="address">
-                <h5 className="mb-1">RS Communications Limited</h5>
+                <h5 className="mb-1 fs-3">RS Communications Limited</h5>
                 <p className="mb-0">
                   23/D/1, Free School Street, Box Culvert Road, Dhaka-1205,
                   Bangladesh.

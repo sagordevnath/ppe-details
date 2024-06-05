@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,16 +18,15 @@ import OfficeEquipment from './Pages/OfficeEquipment.jsx';
 import ElectricalEquipment from './Pages/ElectricalEquipment.jsx';
 import Automobiles from './Pages/Automobiles.jsx';
 import AssetsUnderConstruction from './Pages/AssetsUnderConstruction.jsx';
+import Home from './Pages/Home.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
-      { path: "/", element: <Introduction /> },
+      { path: "/", element: <Home /> },
       { path: "/introduction", element: <Introduction /> },
-      { path: "/PPE", element: <PPE /> },
-      { path: "/PPE-Details", element: <PPEDetails /> },
       { path: "/land", element: <Land /> },
       { path: "/buildings", element: <Buildings /> },
       { path: "/plant-machinery", element: <PlantAndMachinery /> },
@@ -36,6 +35,8 @@ const router = createBrowserRouter([
       { path: "/electrical-equipment", element: <ElectricalEquipment /> },
       { path: "/automobiles", element: <Automobiles /> },
       { path: "/assets-under-construction", element: <AssetsUnderConstruction /> },
+      { path: "/PPE-Details", element: <PPEDetails /> },
+      { path: "/PPE", element: <PPE /> },
     ]
   },
 ]);

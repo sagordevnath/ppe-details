@@ -12,8 +12,6 @@ function MenuBar() {
           {/* <Navbar.Brand href="/home">RS Communication Limited</Navbar.Brand> */}
           <Nav className="me-auto">
             <Nav.Link href='/introduction'>Introduction</Nav.Link>
-            <Nav.Link href="/PPE">PPE</Nav.Link>
-            <Nav.Link href="/PPE-Details">PPE Details</Nav.Link>
             <Nav.Link href="/land">Land</Nav.Link>
             <Nav.Link href="/buildings">Buildings</Nav.Link>
             <Nav.Link href="/plant-machinery">Plant and Machinery</Nav.Link>
@@ -22,6 +20,8 @@ function MenuBar() {
             <Nav.Link href="/electrical-equipment">Electrical Equipment</Nav.Link>
             <Nav.Link href="/automobiles ">Automobiles</Nav.Link>
             <Nav.Link href="/assets-under-construction ">Assets under construction (AUC)</Nav.Link>
+            <Nav.Link href="/PPE-Details">PPE Details</Nav.Link>
+            <Nav.Link href="/PPE">PPE</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

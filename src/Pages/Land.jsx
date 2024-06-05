@@ -99,13 +99,13 @@ export default function Land() {
         <tr>
           <td className='border border-dark'>1</td>
           <td className='border border-dark'>
-            <input className="input-group input-group-sm input" type="text" placeholder='land' />
+            <input className="input-group input-group-sm" type="text" placeholder='land' />
             </td>
           <td className='border border-dark'>
-            <input className="input-group input-group-sm input" type="text" placeholder='unit' />
+            <input className="input-group input-group-sm" type="text" placeholder='unit' />
             </td>
           <td className='border border-dark'>
-            <input className="input-group input-group-sm input" type="number" placeholder='date' />
+            <input className="input-group input-group-sm" type="number" placeholder='date' />
             </td>
           <td className='border border-dark'>Straight line</td>
           <td className='border border-dark'> <input

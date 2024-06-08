@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { Link } from 'react-router-dom';
 
 
 export default function Introduction() {
@@ -14,13 +15,14 @@ export default function Introduction() {
       <p>As at 30 June 2023</p>
       </Card.Header>
       <ListGroup variant="flush">
-        <ListGroup.Item>1. Land</ListGroup.Item>
-        <ListGroup.Item>2. Buildings</ListGroup.Item>
-        <ListGroup.Item>3. Plant and Machinery</ListGroup.Item>
-        <ListGroup.Item>4. Furniture and Fixture</ListGroup.Item>
-        <ListGroup.Item>5. Office Equipment</ListGroup.Item>
-        <ListGroup.Item>6. Electrical Equipment</ListGroup.Item>
-        <ListGroup.Item>7. Automobiles</ListGroup.Item>
+        <Link to='/land' className="btn btn-outline-success mb-2">1. Land</Link>
+        <Link to='/buildings' className="btn btn-outline-success mb-2">2. Buildings</Link>
+        <Link to='/plant-machinery' className="btn btn-outline-success mb-2">3. Plant and Machinery</Link>
+        <Link to='/furniture' className="btn btn-outline-success mb-2">4. Furniture and Fixture</Link>
+        <Link to='/office-equipment' className="btn btn-outline-success mb-2">5. Office Equipment</Link>
+        <Link to='/electrical-equipment' className="btn btn-outline-success mb-2">6. Electrical Equipment</Link>
+        <Link to='/automobiles' className="btn btn-outline-success mb-2">7. Automobiles</Link>
+        <Link to='/assets-under-construction' className="btn btn-outline-success mb-2">8. Assets Under Construction</Link>
       </ListGroup>
     </Card>
     </div>

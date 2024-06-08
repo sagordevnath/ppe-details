@@ -26,7 +26,10 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       { path: "/", element: <Home /> },
+      { path: "/home", element: <Home /> },
+      { path: "/basic-input", element: <BasicInput /> },
       { path: "/introduction", element: <Introduction /> },
+      { path: "/blog", element: <Blog /> },
       { path: "/land", element: <Land /> },
       { path: "/buildings", element: <Buildings /> },
       { path: "/plant-machinery", element: <PlantAndMachinery /> },
@@ -34,9 +37,6 @@ const router = createBrowserRouter([
       { path: "/office-equipment", element: <OfficeEquipment /> },
       { path: "/electrical-equipment", element: <ElectricalEquipment /> },
       { path: "/automobiles", element: <Automobiles /> },
-      { path: "/home", element: <Home /> },
-      { path: "/basic-input", element: <BasicInput /> },
-      { path: "/blog", element: <Blog /> },
       {
         path: "/assets-under-construction",
         element: <AssetsUnderConstruction />,

@@ -1,9 +1,13 @@
 import React from 'react'
 import MenuBar from './MenuBar'
+import { Helmet } from 'react-helmet-async'
 
 export default function Furniture() {
   return (
     <>
+    <Helmet>
+      <title>Furniture</title>
+    </Helmet>
     <MenuBar />
       <div className="note-header pt-3">
         <div className="container-fluid">

@@ -1,9 +1,15 @@
 import React from "react";
+import MenuBar from "./MenuBar";
+import { Helmet } from "react-helmet-async";
 
 
 export default function PPE() {
   return (
     <>
+    <Helmet>
+      <title>PPE</title>
+    </Helmet>
+    <MenuBar />
       <div className="note-header pt-3">
         <div className="container-fluid">
           <div className="row border border-dark p-2">

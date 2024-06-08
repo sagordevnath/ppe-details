@@ -15,7 +15,7 @@ function Home() {
               <h6 className='display-6 fw-bold mb-3 text-light'>Property, Plant and Equipment Summary</h6>
               <p className="lead my-14 text-light">'Property, plant, and equipment are not just assets on a balance sheet; they are the tangible foundations of a companys operations, the machinery of progress, and the infrastructure of growth.</p>
               <div className="d-grid gap-2 d-sm-flex justify-content-sm-center my-14">
-                <Link to='/basicInput' type="button" className="btn bsb-btn-xl btn-outline-light gap-3">Create Now</Link>
+                <Link to='/basic-input' type="button" className="btn bsb-btn-xl btn-outline-light gap-3">Create Now</Link>
                 <Link to='/blog' type="button" className="btn bsb-btn-xl btn-outline-light">Learn More</Link>
               </div>
             </div>

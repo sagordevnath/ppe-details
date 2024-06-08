@@ -1,8 +1,10 @@
 import React from 'react'
+import MenuBar from './MenuBar'
 
 export default function OfficeEquipment() {
   return (
     <>
+    <MenuBar />
       <div className="note-header pt-3">
         <div className="container-fluid">
           <div className="row p-2">

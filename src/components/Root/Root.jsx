@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom'
-import MenuBar from '../../Pages/MenuBar'
+// import MenuBar from '../../Pages/MenuBar'
 
 export default function Root() {
   return (
     <div>
-        <MenuBar></MenuBar>
+        {/* <MenuBar></MenuBar> */}
         <Outlet></Outlet>
     </div>
   )

@@ -18,6 +18,7 @@ import AssetsUnderConstruction from "./Pages/AssetsUnderConstruction.jsx";
 import Home from "./Pages/Home.jsx";
 import { HelmetProvider } from "react-helmet-async";
 import BasicInput from "./Pages/BasicInput.jsx";
+import Blog from "./Pages/Blog.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
       { path: "/automobiles", element: <Automobiles /> },
       { path: "/home", element: <Home /> },
       { path: "/basic-input", element: <BasicInput /> },
+      { path: "/blog", element: <Blog /> },
       {
         path: "/assets-under-construction",
         element: <AssetsUnderConstruction />,

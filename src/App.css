@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: full;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 5px;
   text-align: center;
   font-size: 13px;
 }
@@ -18,4 +18,15 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+.home {
+  height: 100vh;
+}
+
+
+.hero {
+  color: black;
+  background-image: url(./assets//home.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
